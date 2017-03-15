@@ -13,7 +13,7 @@
             "email": "Kylegavinessex@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "MrEssex\\LaravelAuthProfile\\": "src/"
