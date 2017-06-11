@@ -25,7 +25,7 @@ Step 3: Register the AuthProfileServiceProvider::class
 1. Open PROJECT_NAME/config/app.php 
 2. In the `'providers' => []`  array, under `Illuminate\View\ViewServiceProvider::class,` add `MrEssex\LaravelAuthProfile\AuthProfileServiceProvider::class,`
 
-Step 4: To customise the views run `php artisan vendor:publish`. Now you can edit the views in PROJECT_NAME/resources/views/vendor/mressex/laravel-auth-profile
+Step 4: To customise the views run `php artisan vendor:publish`. Now you can edit the views in PROJECT_NAME/resources/views/vendor/laravelauthprofile
 
 Step 5: In your `resources/views/layouts/app.blade.php` Navigate to line 63, or `<a href="{{ route('logout') }}"` and add the following above it:
 
